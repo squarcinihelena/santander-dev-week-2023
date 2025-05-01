@@ -1,23 +1,25 @@
-# Santander Dev Week 2023 - API RESTful
+# 💳 API REST - Santander Dev Week 2023
 
-Esta é a API RESTful desenvolvida para o evento Santander Dev Week 2023, utilizando Java 17 e Spring Boot 3. O projeto foi desenvolvido para demonstrar a criação e consumo de APIs com integração com banco de dados, documentação OpenAPI (Swagger) e deploy na nuvem com Railway.
+Este projeto é uma API RESTful desenvolvida com **Java 17** e **Spring Boot 3** para o backend do app bancário do Santander, como parte do desafio **Dev Week Santander 2023** e do **bootcamp Decola Tech 2025** da **DIO** em parceria com a **Avanade**.
 
-## Tecnologias Utilizadas
+A solução foi projetada para gerenciar usuários e informações bancárias, com integração ao banco de dados **PostgreSQL** usando **Spring Data JPA**, garantindo persistência eficiente e segura. Toda a API está documentada com **OpenAPI (Swagger)**, permitindo fácil visualização e testes dos endpoints.
 
-- **Java 17**: A versão LTS mais recente do Java.
-- **Spring Boot 3**: Framework para criação de APIs rápidas e produtivas.
-- **Spring Data JPA**: Simplifica a integração com bancos de dados SQL.
-- **OpenAPI (Swagger)**: Documentação interativa da API.
-- **Railway**: Deploy e monitoramento da aplicação na nuvem.
-- **MySQL**: Banco de dados utilizado para armazenar as informações dos usuários.
+Esse projeto foi uma oportunidade para aprofundar meus conhecimentos em desenvolvimento backend com foco em APIs, banco de dados, boas práticas e deploy em nuvem.
 
-## Funcionalidades
+##  Tecnologias e Ferramentas
 
-A API oferece os seguintes recursos:
+- **Java 17**
+- **Spring Boot 3**
+- **Spring Data JPA**
+- **PostgreSQL**
+- **OpenAPI (Swagger)**
+- **Railway** (deploy e monitoramento)
 
-- **GET /users/{id}**: Retorna os detalhes de um usuário específico.
-- **POST /users**: Cria um novo usuário.
-- **PUT /users/{id}**: Atualiza os dados de um usuário existente.
+##  Funcionalidades
+
+- `GET /users/{id}`: Buscar dados de um usuário.
+- `POST /users`: Criar novo usuário.
+- `PUT /users/{id}`: Atualizar informações do usuário.
 
 
 ## UML
